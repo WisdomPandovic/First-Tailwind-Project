@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Museum </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    
+    <nav class="bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center relative">
+          <a href="#" class="text-white text-lg font-bold uppercase">The Zoem Museum</a>
+    
+          <button id="toggleBtn" class="lg:hidden text-white focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+    
+          <div id="dropdownMenu" class="absolute top-10 left-0 hidden lg:hidden space-y-2 bg-white w-full m-0 p-2">
+            <a href="#" class="block">Home</a>
+            <a href="#" class="block">Shop</a>
+            <a href="#" class="block">Event</a>
+            <a href="#" class="block">Collections</a>
+            <a href="#" class="block">About</a>
+            <a href="#" class="block">Contact</a>
+          </div>
+    
+          <div class="hidden lg:flex space-x-4 bg-blue">
+            <a href="#" class="text-white">Home</a>
+            <a href="#" class="text-white">Shop</a>
+            <a href="#" class="text-white">Event</a>
+            <a href="#" class="text-white">Collections</a>
+            <a href="#" class="text-white">About</a>
+            <a href="#" class="text-white">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+    <section class="bg-image-section h-screen flex items-center">
+        <div class="container mx-auto text-center text-white">
+          <h1 class="text-4xl font-bold mb-4">Titianand The Renaissance in Venice</h1>
+          <a href="#" class="text-lg inline-block px-4 py-2 bg-white text-black rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <section class="container mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 border-r border-black">
+    
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold mb-2">Old Masters</h2>
+                <i class="fas fa-arrow-right ml-2 text-black cursor-pointer"></i>
+            </div>
+            <div class="border-t border-black border-2 my-2 mb-4"></div>
+            <img src="./images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL2xhY21hMjI5NTIxLWltYWdlLmpwZw.jpg" alt="Image 1" class="w-full h-auto rounded-md mb-2">
+            <p>Juan Van Eyck</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Lucas Cranach The Elder</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Sandro Botticelli (Sandro Filpepi)</p>
+            <div class="border-t my-2 mb-4"></div>
+        </div>
+    
+        <div class="bg-white p-6 pb-10 border-r border-black">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold mb-2">Modern Art</h2>
+                <i class="fas fa-arrow-right ml-2 text-black cursor-pointer"></i>
+            </div>
+            <div class="border-t border-black border-2 my-2 mb-4"></div>
+            <img src="./images/the-museum-photo-1.webp" alt="Image 1" class="w-full h-auto rounded-md mb-2">
+            <p>Paul Lindaga.</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Pablo Picaso</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Johann Heinrich Wilhem Tischben</p>
+            <div class="border-t my-2 mb-4"></div>
+        </div>
+    
+        <div class="bg-white p-6 ">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold mb-2">Contemporary Art</h2>
+                <i class="fas fa-arrow-right ml-2 text-black cursor-pointer"></i>
+            </div>
+            <div class="border-t border-black border-2 my-2 mb-4"></div>
+            <img src="./images/the-museum-photo-2" alt="Image 1" class="w-full h-auto rounded-md mb-2">
+            <p>Gerard Richter</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Martin Kipperberger</p>
+            <div class="border-t my-2 mb-4"></div>
+    
+            <p>Francis Bacon</p>
+            <div class="border-t my-2 mb-4"></div>
+        </div>
+      </section>
+
+      <section class="container mx-auto grid grid-cols-1 md:grid-cols-2">
+        <div class="flex items-center bg-white p-6">
+            <div class="flex items-center flex-col md:flex-row md:items-start">
+                <div class="mr-6">
+                    <h2 class="text-xl font-bold mb-2 text-center">Welcome to The Art and History Museum</h2>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo itaque cumque tempore! Nisi voluptas eaque cum libero distinctio nobis assumenda..</p>
+    
+                   
+                    <section class="container mx-auto mt-8">
+                      <div class="text-center ">
+                          <p class="text-xl font-bold mb-2">More About</p>
+                          <i class="fas fa-arrow-right ml-2 text-black cursor-pointer"></i>
+                      </div>
+                    </section>
+              
+                </div>
+            </div>
+        </div>
+    
+        <!-- Item 2 -->
+        <div class="flex items-center">
+            <img src="./images/istockphoto-1390107325-612x612.jpg" alt="Image 2" class="w-full h-auto">
+        </div>
+    </section>
+    
+
+    <section class="container mx-auto mt-8">
+        <div class="bg-white p-6  ">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold mb-2">Collection</h2>
+                <div class="flex items-center">
+                    <p class="mr-2">View All Collections</p>
+                    <i class="fas fa-arrow-right ml-2 text-black cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="border-t border-black border-2 my-2 mb-4"></div>
+            <div class=""><p class="text-left ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit, facere obcaecati dolore libero sed quaerat aspernatur tempora labore, accusamus ratione eaque ipsum itaque similique consectetur modi illo quam. Ipsa sunt debitis quos similique accusamus distinctio reiciendis veniam quae vero!</p></div>
+      </div>
+      </section>
+
+      <section class="container mx-auto mt-8 mb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+             <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://media.istockphoto.com/id/1868285522/photo/close-up-of-mural-on-national-history-museum-in-skanderbeg-square.jpg?s=612x612&w=0&k=20&c=OQkr-ll0HMXJ42f_a6TaaK7bR_Sg2WQf91m22_Qn1dw=" alt="">
+            <p class="mt-2 text-center">Mural on national history museum</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://media.istockphoto.com/id/1485806678/vector/queen-victoria-in-her-robes-of-state-about-1845.jpg?s=612x612&w=0&k=20&c=OHl3VVmVvvC4u-729_7pevdw8WC7l2-SqEOx9n52rzQ=" alt="">
+            <p class="mt-2 text-center">Queen Victoria in her Robes</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3NtaXRoc25zYWFtMTkyOTY1MTEtaW1hZ2UuanBn.jpg" alt="">
+            <p class="mt-2 text-center">Appledore No. 2 by Frederick Childe Hassam</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+            </div>
+            <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODg0MDMyNzc2Ni1pbWFnZS1rdTU2d2V5Zy5qcGc.jpg" alt="">
+            <p class="mt-2 text-center">The Sistine Chapel fresco in Vatican City</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjU3My1wZDIxLTAyMjAwNS00NzctYXJ0cHJpbnQuanBn.jpg" alt="">
+            <p class="mt-2 text-center">Ohara Koson art print, vintage women in the rain wall decor (1877–1945)</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL2xhY21hMjI5MjA2LWltYWdlLmpwZw.jpg" alt="">
+            <p class="mt-2 text-center">A Home by the Seaside by Worthington Whittredge</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+            </div>
+      <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L3BkbWlzYzE1LXNta2ttc3NwMzUtaW1hZ2VfMy5qcGc.jpg" alt="">
+            <p class="mt-2 text-center">Mary's Annunciation (1748), vintage religion illustration by Agostino Masucci</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNV9zcGFjZV92aW50YWdlX3N0eWxlX3JvdWdoX29pbF9wYWludGluZ19tdXNldW1fYV9jYTNiMmI4Ni1hNmIyLTQ5MDItOTJkOS00YWI1MDkyOTBkZjVfMS5qcGc.jpg" alt="">
+            <p class="mt-2 text-center">Space painting art exhilaration</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3BkbWlzYzEwLXNtaXRoc25zYWFtMTkyOTY2MzItaW1hZ2UuanBn.jpg" alt="">
+            <p class="mt-2 text-center">Tanagra (The Builders, New York) by Frederick Childe Hassam
+            </p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+      </div>
+      <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3BkbWlzYzktc21pdGhzbnNhYW0xOTg2NjUxMzYxLWltYWdlLmpwZw.jpg" alt="">
+            <p class="mt-2 text-center">Not Belonging to the World by amantha Rose Hill</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3BkbWlzYzYtcGRtaXNjLWRwODM1MTI1LWotaW1hZ2VfMi5qcGc.jpg" alt="">
+            <p class="mt-2 text-center">Lion from the Quadrupeds series N21 (1890) painting by Allen & Ginter</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNV9zcGFjZV92aW50YWdlX3N0eWxlX3JvdWdoX29pbF9wYWludGluZ19tdXNldW1fYV84MDQwY2Y1Yy03ZmU1LTRhMDUtYTIzYS0xMjIxM2YzNWM3MTVfMS5qcGc.jpg" alt="">
+            <p class="mt-2 text-center">Space painting art exhilaration</p>
+            <!-- <p class="mt-2 text-center">Text 2</p> -->
+          </div>
+      </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto mt-8">
+        <div class="text-center">
+            <a href="#" class="inline-block px-4 py-2 bg-black text-white rounded-md mb-8 uppercase">Load More</a>
+        </div>
+      </section>
+
+      <footer class="bg-black text-white py-8">
+        <div class="container mx-auto grid pl-4 grid-cols-1 md:grid-cols-2 gap-8">        
+            <div class="text-left md:text-center">
+                <p class="mt-4 uppercase">The Zoem Museum</p>
+            </div>
+      
+            <div class="flex flex-col md:flex-row md:custom-gap-30">
+              <div>
+                  <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>          
+        
+              <div>
+                  <h3 class="text-lg font-bold mb-4">Social Links</h3>
+                  <div class="flex mt-6">
+                    <a href="#" class="mr-4 text-blue-500"><i class="fab fa-facebook-square text-2xl"></i></a>
+                    <a href="#" class="mr-4 text-blue-500"><i class="fab fa-twitter text-2xl"></i></a>
+                    <a href="#" class="mr-4 text-red-500"><i class="fab fa-instagram text-2xl"></i></a>
+                  </div>
+              </div>
+          </div>
+          
+        </div>
+      </footer>
+     
+     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
